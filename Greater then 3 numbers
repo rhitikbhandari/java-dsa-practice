@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Practice {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a, b, c;
+        System.out.print("Enter the  Ist number:");
+        a = sc.nextInt();
+        System.out.print("Enter the  IInd number:");
+        b = sc.nextInt();
+        System.out.print("Enter the  IIIrd number:");
+        c = sc.nextInt();
+        if (a > b && a > c) {
+            System.out.println("Ist is greater");
+        } else if (b > a && b > c) {
+            System.out.println("IInd is greater");
+        } else {
+            System.out.println("IIIrd is greater");
+        }
+
+    }
+}
