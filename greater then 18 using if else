@@ -1,0 +1,23 @@
+import java.util.Scanner; // use to take input from the user.. from the library
+
+public class Hello {
+    
+    public static void main(String[] args)// it is an MAIN method {
+        // INPUT
+       
+        Scanner sc = new Scanner(System.in);// new object 'sc' it read input from the  keyboard(System.in).
+        // 'sc' is use to take inputs like number , string etc.
+       
+        int age;  // integer variable age where we can store age of a person
+        
+        System.out.print("enter the age: "); // to print the age 
+        
+        age = sc.nextInt(); // here we can see whatever we write in the numeric form 
+        // it will directly store in the variable age because  sc.nextInt();  store number in the age.
+        if (age > 18) {
+            System.out.println("adult");
+        } else {
+            System.out.println("not adult");
+        }
+
+    }
