@@ -1,0 +1,39 @@
+import java.util.Scanner; // use to take input from the user.. from the library
+
+public class Hello {
+
+    public static void main(String[] args) {// it is an MAIN method {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter the first number: ");
+        int a = sc.nextInt();
+        System.out.print("enter the Second number: ");
+        int b = sc.nextInt();
+        System.out.println("choose operation +,-,*,/,%");
+        char c = sc.next().charAt(0);
+        int result;
+        switch (c) {
+            case '+':
+                result = a + b;
+                System.out.println("sum is " + result);
+                break;
+            case '-':
+                result = a - b;
+                System.out.println("sub is " + result);
+                break;
+            case '*':
+                result = a * b;
+                System.out.println("Mul is " + result);
+                break;
+            case '/':
+                result = a / b;
+                System.out.println("div is " + result);
+                break;
+            case '%':
+                result = a % b;
+                System.out.println("modulo is " + result);
+                break;
+            default:
+                System.out.println("you entered the wrong number");
+        }
+    }
+}
