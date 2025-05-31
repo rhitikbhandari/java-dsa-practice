@@ -1,0 +1,66 @@
+import java.util.Scanner; // use to take input from the user.. from the library
+
+public class Hello {
+
+    public static void main(String[] args) {// it is an MAIN method {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter the  number: ");
+        int a = sc.nextInt();
+        // System.out.print("enter the Second number: ");
+        // int b = sc.nextInt();
+        // System.out.println("choose operation +,-,*,/,%");
+        // char c = sc.next().charAt(0);
+        // int result;
+        switch (a) {
+            case 1:
+                System.out.println("january");
+                break;
+            case 2:
+
+                System.out.println("feburary");
+                break;
+            case 3:
+
+                System.out.println("March");
+                break;
+            case 4:
+
+                System.out.println("april");
+                break;
+            case 5:
+
+                System.out.println("May");
+                break;
+            case 6:
+
+                System.out.println("june");
+                break;
+            case 7:
+
+                System.out.println("july");
+                break;
+            case 8:
+
+                System.out.println("august");
+                break;
+            case 9:
+
+                System.out.println("september");
+                break;
+            case 10:
+
+                System.out.println("october");
+                break;
+            case 11:
+
+                System.out.println("november");
+                break;
+            case 12:
+
+                System.out.println("december");
+                break;
+            default:
+                System.out.println("you entered the wrong number");
+        }
+    }
+}
