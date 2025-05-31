@@ -1,0 +1,17 @@
+import java.util.Scanner; // use to take input from the user.. from the library
+
+public class Hello {
+
+    public static void main(String[] args) {// it is an MAIN method {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter the  number: ");
+        int a = sc.nextInt();
+        System.out.print("enter second number: ");
+        int b = sc.nextInt();
+        if (a > b) {
+            System.out.println(a);
+        } else {
+            System.out.println(b);
+        }
+    }
+}
