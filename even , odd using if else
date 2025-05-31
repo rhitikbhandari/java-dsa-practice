@@ -1,0 +1,15 @@
+import java.util.Scanner; // use to take input from the user.. from the library
+
+public class Hello {
+
+    public static void main(String[] args) {// it is an MAIN method {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter the  number: ");
+        int a = sc.nextInt();
+        if (a % 2 == 0) {
+            System.out.println("number is even");
+        } else {
+            System.out.println("number is Odd");
+        }
+    }
+}
