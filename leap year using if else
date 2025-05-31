@@ -1,0 +1,16 @@
+import java.util.Scanner; // use to take input from the user.. from the library
+
+public class Hello {
+
+    public static void main(String[] args) {// it is an MAIN method {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("enter the  number: ");
+        int a = sc.nextInt();
+        if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0) {
+            System.out.println("it is a leap year " + a);
+        } else {
+            System.out.println("it is not a leap year.");
+        }
+
+    }
+}
